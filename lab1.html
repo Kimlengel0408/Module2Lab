@@ -3,35 +3,50 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="idk">
+  <meta name="keywords" content="Website">
+  <meta name="author" content="Kim Lengen Gesite">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lab 1</title>
 </head>
 <style>
-    table, th, td {
-        border: 1px solid black;
-    }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
 </style>
 
 
 <body>
+  <nav>
+    <a href="lab1.html"> Home </a>
+    <a href="form.html"> Form </a>
+  </nav>
+
 
   <h1>My HTML learning journey </h1>
   <h2>Learning elements - div, span, pre, ul, li, ol, article</h2>
 
+  <h1> My journey on a learning about HyperText Markup Language </h1>
   <article>
+
+    <h2> Elements learned are the lists </h2>
+    <!--
     <div> HTML </div>
     <div> CSS </div>
     <div> JavaScript </div>
     <span>One</span> <span>Two</span> <span>Three</span>
-  
+
     <header>
       <nav>
-  
+
         <a href="/">Home</a>
       </nav>
     </header>
-  
+    
     <main>
-  
+
       <p>
         p represents paragraph without preserving spacing
       </p>
@@ -42,7 +57,7 @@
         both      spaces and
         line breaks
       </pre>
-  
+
       <ul>
         <li>Live.</li>
         <li>Laugh.</li>
@@ -55,19 +70,22 @@
           </ul>
         </li>
       </ul>
-  
+
       <ol>
         <li>Hypotenuse</li>
         <li>Adjacent</li>
         <li>Opposite</li>
       </ol>
-  
+
     </main>
-  
+
     <footer>Copyright &copy; 2024</footer>
+  -->
   </article>
 
+
   <article>
+
     <h2>This is a table</h2>
     <table>
       <caption>
@@ -123,8 +141,41 @@
         </tr>
       </tfoot>
     </table>
-  
-  </article>
+
+    <article>
+      <h2> This would include the media part </h2>
+      <img src="https://picsum.photos/400/400" alt="This shows random aesthetic photos" />
+      <img src="html_lab_image.jpg" alt="This shows random aesthetic photos" />
+
+      <video controls width="250" autoplay muted>
+        <source src="sflower.mp4" type="video/webm">
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+
+      <audio controls src="t-rex-roar.mp3" autoplay muted>
+        Your browser does not support the <code>audio</code> element.
+      </audio>
+    </article> <br>
+
+    <form method="POST" action="http://127.0.0.1:5500/form.html">
+      <label for="firstName"> First Name: </label>
+      <input type="text" name="firstName" value="Kim" placeholder="First Name"><br><br>
+
+      <label for="lastName"> Last Name: </label>
+      <input type="text" name="lastName" value="Gesite" placeholder="Last Name">
+
+      <div>
+        <label for="carBrand">
+          <select>
+            <option value="Ford"> Ford </option>
+            <option value="Toyota"> Toyota </option>
+            <option value="Hyundai"> Hyundai </option>
+          </select> <br><br>
+        </label>
+      </div>
+      <button type="submit">Submit form</button>
+    </form>
+
 
 </body>
 
