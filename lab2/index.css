@@ -14,9 +14,16 @@ article {
     color:blue;
 }
 
+#style-me2.style-me1{
+    color: purple;
+}
+
 
 /* Put styles for questions 2.1 and 2.2 here */
 
+.my-descendants-are-styled p {
+    background-color: red;
+}
 
 /* II. Box model and common properties */
 /* Put styles for questions 1-8 here */
