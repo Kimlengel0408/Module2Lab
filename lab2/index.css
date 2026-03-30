@@ -25,8 +25,21 @@ article {
     background-color: red;
 }
 
+.my-children-are-styled > p {
+    background-color: lightgreen;
+}
+
 /* II. Box model and common properties */
 /* Put styles for questions 1-8 here */
+/* Question 2.1 */
+.box {
+    background-color: blue;
+    margin: 10px 20px;
+    padding: 30px;
+    width: 100vh;
+    height: 5vh !important;
+}
+
 
 
 /* III. Positioning */
